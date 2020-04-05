@@ -22,7 +22,7 @@ public class ClientRMI {
     	try {
     		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
     		Registry registry = LocateRegistry.getRegistry(SERVER_HOST,SERVER_PORT);
-    	    System.out.println(registry);
+    	    
     	    IServer proxy = (IServer)registry.lookup(IServer.RMI_SERVER_NAME);
     		while(isConnected){
         		
