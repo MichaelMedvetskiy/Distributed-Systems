@@ -23,5 +23,5 @@ And the list of commands that realized in this project and their syntax:
 - rmsg //Command check if there any new messages in server and receiving them
 - file ***Receiver*** ***Path to file*** //Send a file to currently online User, 
        when you use this command write a path like this: ***C:\\directory\\file.extension***
--rfile ***Path where to save the file*** //Command check if there any new file in server and receiving them,
-       when you use this command write a path like this: ***C:\\directory\\
+- rfile ***Path where to save the file*** //Command check if there any new file in server and receiving them,
+       when you use this command write a path like this: ***C:\\directory\\***
