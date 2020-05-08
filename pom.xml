@@ -4,6 +4,28 @@
   <artifactId>sem1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <dependencies>
+		<dependency>
+			<groupId>com.sun.xml.ws</groupId>
+			<artifactId>rt</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+		<dependency>
+			<groupId>javax.xml.ws</groupId>
+			<artifactId>jaxws-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+    </dependencies>
+  
   <build>
         <plugins>
             <plugin>
