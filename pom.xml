@@ -40,6 +40,17 @@
 			<artifactId>jersey-json</artifactId>
 			<version>1.19.1</version>
 	 </dependency>
+	 <dependency>
+		<groupId>org.apache.activemq</groupId>
+		<artifactId>activemq-client</artifactId>
+		<version>5.13.3</version>
+  	</dependency>
+  	 <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-simple</artifactId>
+       <version>1.6.4</version>
+   </dependency>
+	 
     </dependencies>
   
   <build>
